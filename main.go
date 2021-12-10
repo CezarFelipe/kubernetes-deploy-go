@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "dev-ops-ninja:v100"
+const webContent = "Treelogy system treinamento de pipeline"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
