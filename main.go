@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "Treelogy system treinamento de pipeline"
+const webContent = "Treelogy system treinamento de pipeline-teste com jenkins"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
