@@ -51,7 +51,7 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: go.rancher.treelogy.link
+  - host: go.rancher.treelogy.eco.br
     http:
       paths:
         - path: /
