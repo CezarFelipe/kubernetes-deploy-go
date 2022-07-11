@@ -19,9 +19,3 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
-branch:
-  include:
-  - master
-  exclude:
-  - qa
-notification: {}
