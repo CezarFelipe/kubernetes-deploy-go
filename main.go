@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "Treelogy system rancher server pipeline"
+const webContent = "Treelogy system rancher server pipeline v1"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
